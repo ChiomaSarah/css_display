@@ -19,7 +19,7 @@
   float: left;
   color: #262626;
   text-align: center;
-  padding: 25px;
+  padding: 23px;
   text-decoration: none;
   font-size: 20px;
   line-height: 25px;
@@ -49,6 +49,21 @@
     font-size: 16px;
     margin: 20px;
     background-color: #e6e6e6;
+}
+[data-initials]:before {
+background: #862d86;
+color: white;
+opacity: 1; 
+content: attr(data-initials); 
+display: inline-block; 
+font-weight: bold; 
+border-radius: 50%; 
+vertical-align: middle; 
+margin-right: 0.5em; 
+width: 50px; 
+height: 50px; 
+line-height: 50px; 
+text-align: center; 
 }
 .nav {
   display: flex;
@@ -98,4 +113,84 @@ img {
   width: 40%;
   height: 40%;
   margin-left: 20px;
+}
+#container{
+  margin-left : 1.2rem;
+  margin-right: 1.2rem;
+}
+.promo-advert{
+  background: #003333;
+  padding: 1rem;
+  font-size: 22px;
+  color: #fff;
+  
+  border-radius: 5px;
+  height: 0%;
+}
+.promo-btn{
+  padding: 1rem;
+  margin: 0.4rem;
+  margin-top: 2rem;
+  
+    
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  background: #003333;
+}
+.btn{
+  background: #008080;
+}
+.btn:hover{
+  background: #004d4d;
+}
+#break{
+    font-size: 22px;
+    }
+.link{
+  text-decoration: none;
+  font-size: 19px;
+  color: #008080;
+  margin-left: 20px;
+}
+.link:hover{
+  color: #004d4d;
+}
+#recommend{
+  margin-top: 5rem;
+  font-size: 3em;
+}
+#text{
+  margin-top: 2rem;
+  font-size: 2em;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+  padding: 2px 16px;
+  
+}
+.checked {
+  color: orange;
+}
+.rating{
+  background: #ffb366;
+  font-size:17px;
+  width: 22%;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+#bestseller{
+  width: 17%;
 }
