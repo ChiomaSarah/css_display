@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-</html><html lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href='https://css.gg/shopping-cart.css' rel='stylesheet'>
-  
+  <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
 </head> 
 <body>
     <div class="header">
@@ -61,63 +61,121 @@
     </div>
   <div id="container">
   <div class="promo-advert">
-    <P><strong>Training 5 or more people?</strong> Get your team access to Udemy's top  <button class="promo-btn btn">Get Udemy for Business</button><button class="promo-btn">Dismiss</button></p>
-        <p id ="break">5,500 + courses</p><br>
-    </div>
+    <P><strong>Training 5 or more people?</strong> Get your team access to Udemy's top 
+      <div class="row">
+   <input type="submit" class="promo-btn" id="btn" value="Get Udemy for Business">
+   <input type="submit" class="promo-btn" value="Dismiss">
+ </div>
+  
+    <p id="break">5,500 + courses</p><br>
+  </div>
   <h1 id="recommend">What to learn next</h1><br>
   <h2 id="text">Popular for aspiring Full Stack Web Developers <a href="#" class ="link">Edit profession</a></h2>
-    <p>New Inspired by your selections</p>
-  <div class="card-container">
-    <div class="card">
-  <img src="https://img-a.udemycdn.com/course/480x270/1565838_e54e_12.jpg?N9WgH6STGaac-OvNCDapVqx7Oa0Pivn3d1pOJvfM55T-5XrqBIJzStXyQsltDImx2PiRP60ZlGxDEGsqRDTaCwHtBmHjVDxnx2Q1u7ST93R-jOYAAk5vOO_YnbFgonbo2g" alt="Udemy Web Development Image" style="width:100%">
+    <p id="xyz"><span style="background: teal; padding: 2px; color: #fff; border-radius: 3.5px";>New </span> Inspired by your selections</span></p>
+  <div id="card-container">
+    <div class="card" >
+      <div class="left-tooltip">
+  <img src="https://img-a.udemycdn.com/course/480x270/1565838_e54e_12.jpg?N9WgH6STGaac-OvNCDapVqx7Oa0Pivn3d1pOJvfM55T-5XrqBIJzStXyQsltDImx2PiRP60ZlGxDEGsqRDTaCwHtBmHjVDxnx2Q1u7ST93R-jOYAAk5vOO_YnbFgonbo2g" alt="Udemy Web Development Image" class="card-img" style="width:100%">
+      
+      <span class="left-tooltiptext"><h2>The Complete 2021 Web Development Bootcamp </h2>
+    <p><span class="rating" >Bestseller</span> <span style="color: #008000; padding-left: 10px";> Updated <strong>January 2021</strong> </span></p>
+    <p class="benefits">
+      55 total hours <strong>.</strong> All levels <strong>.</strong> Subtitles</p>
+<p>Become a full-stack web developer with just one course. HTML, CSS, JavaScript, Node, React, MongoDB and more!</p>
+    
+<ul>
+  <li>Be able to build ANY website you want.</li>
+  <li>Craft a portfolio of websites to apply for junior developer jobs.</li>
+  <li>Build fully-fledged websites and web apps for your startups or business.</li>
+  
+  </ul>
+        <p><button class="select">Add to Cart</button></p><span class="iconify" data-icon="ion-heart-circle" data-inline="false"></span>
+</span>
+      </div>
   <div class="container">
-    <h4><b>The Complete 2021 Web Development Bootcamp</b></h4>
-    <p>Dr. Angela Yu</p>
+    <h4>The Complete 2021 Web Development Bootcamp</h4>
+    <p style="color: grey;">Dr. Angela Yu</p>
+    <span class="review"> <strong>4.7</strong></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star-half checked"></span> 
-    <span>(119,499)</span>
-    <p>$129.99</p>
+    <span style="color: grey;">(119,499)</span>
+    <p>$11.99 <strike style="color: grey;">$129.99</strike></p>
     <p class="rating" id="bestseller">Bestseller</p>
   </div>
 </div>
-    </div>
-    <div class="card-container">
-  <div class="card">
-  <img src="https://img-a.udemycdn.com/course/480x270/3655840_1c3c.jpg?rSu1jGaxtMnBSnOem0lojYGkhuQK55pzaO1VNJSkLg6AVCOvMg7gsEZLl27qPJbA1FbGvDPWOyNSJKmwk0UW222zwAhQ9V2oQ0mr3KMEBPD54R1OeqZZdl2AlWc86w" alt="Udemy Web Development Image" style="width:100%">
+    
+    
+    
+    
+    <div class="card">
+      <div class="bottom-tooltip">
+  <img src="https://img-b.udemycdn.com/course/480x270/2153774_bef0_4.jpg?secure=WP6VKtbOVRInS82pxMn_aw%3D%3D%2C1615172438" alt="Udemy Web Development Image"class="card-img" style="width:100%">
+         <span class="bottom-tooltiptext"><h2>Modern HTML & CSS from the Beginning (Including Sass)</h2>
+    <p><span class="rating" >Highest rating</span> <span style="color: #008000; padding-left: 10px";> Updated <strong>April 2020</strong> </span></p>
+    <p class="benefits">
+      21 total hours <strong>.</strong> All levels <strong>.</strong> Subtitles</p>
+<p>Build morden responsive websites and UIs with HTML5, CSS3, and Sass! Learn flex and CSS grid</p>
+    
+<ul>
+  <li>Build Multiple High Quality Websites and UI Project</li>
+  <li>HTML5 Semantic Layout and CSS Fundamentals</li>
+  <li>Flexbox and CSS Grid Project</li>  
+  </ul>
+        <p><button class="select">Add to Cart</button></p><span class="iconify" data-icon="ion-heart-circle" data-inline="false"></span>
+</span>
+</div>
+
   <div class="container">
-    <h4><b>The Ultimate 2021 Fullstack Web Development Bootcamp</b></h4>
-    <p>Kane Ezki, Kalob Taulien</p>
+    <h4>Modern HTML & CSS from the Beginning (Including Sass)</h4>
+    <p style="color: grey;">Brad Traversy</p>
+    <span class="review"> <strong>4.7</strong></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star-half checked"></span>
-    <span>(153)</span>
-    <p>$129.99</p>
+    <span style="color: grey;">(16698)</span>
+    <p>$11.99 <strike style="color: grey;">$129.99</strike></p>
     <p class="rating">Highest rated</p>
   </div>
 </div>
-    </div>
-    <div class="card-container">
-  <div class="card">
-  <img src="https://img-b.udemycdn.com/course/480x270/3749464_eaea.jpg?secure=SlxGZ7lVQSeKEfbS0MNQqQ%3D%3D%2C1614979190" alt="Udemy Web Development Image" style="width:100%">
+    <div class="card">
+       <div class="right-tooltip">
+  <img src="https://img-b.udemycdn.com/course/480x270/3749464_eaea.jpg?secure=SlxGZ7lVQSeKEfbS0MNQqQ%3D%3D%2C1614979190" alt="Udemy Web Development Image" class="card-img" style="width:100%">
+       <span class="right-tooltiptext"><h2>React and Typescript: Build a portfolio project </h2>
+    <p><span class="rating" >Highest rated</span> <span style="color: #008000; padding-left: 10px";> Updated <strong>January 2021</strong> </span></p>
+    <p class="benefits">
+      29.5 total hours <strong>.</strong> All levels <strong>.</strong> Subtitles</p>
+<p>Expand your portfolio of prjects by building a complex app with the latest web technologies</p>
+    
+<ul>
+  <li>Build a portfolio-ready project with React and Typescript</li>
+  <li>Integrate React and Redux together with Typescript</li>
+  <li>Symplify state update with the fabulous immer library</li>
+  
+  </ul>
+        <p><button class="select">Add to Cart</button></p><span class="iconify" data-icon="ion-heart-circle" data-inline="false"></span>
+</span>
+</div>
+
   <div class="container">
-    <h4><b>React and Typescript: Build a portfolio Project</b></h4>
-    <p>Stephen Grider</p>
+    <h4>React and Typescript: Build a portfolio Project</h4>
+    <p style="color: grey;">Stephen Grider</p>
+    <span class="review"> <strong>4.8</strong></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
 <span class="fa fa-star checked"></span>
-    <span>(586)</span>
-    <p>$129.99</p>
+    <span style="color: grey;">(586)</span>
+    <p>$11.99 <strike style="color: grey;">$129.99</strike></p>
     <p class="rating">Highest rated</p>
   </div>
 </div>
   </div>
   </div>
-</body>
+ </body>
 </html>
